@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import LogoImage from '../../images/logo.png';
+import LogoImage from '../../images/handy_nobg.png';
 
 const BrandLogoContainer = styled.div`
     display: flex;

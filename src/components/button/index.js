@@ -6,7 +6,7 @@ const ButtonWrapper = styled.button`
     outline: none;
     color: #FFF;
     padding: 7px 1.5em;
-    font-size: 18px;
+    font-size: ${({ size }) => size ? size + 'px' : '18px'};
     font-weight: 600;
     border-radius: 5px;
     background-color: #2A9D8F;
@@ -14,7 +14,7 @@ const ButtonWrapper = styled.button`
     transition: all 200ms ease-in-out;
 
     &:hover {
-        background-color: #2A9DAF;
+        background-color: #3F92AA;
     }
     
     &:focus {
@@ -23,8 +23,11 @@ const ButtonWrapper = styled.button`
 `;
 
 export function Button(props) {
+
+    const { size } = props;
+
     return (
-        <ButtonWrapper>
+        <ButtonWrapper size={size}>
             {props.children}
         </ButtonWrapper>
     )
