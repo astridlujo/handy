@@ -1,0 +1,24 @@
+{
+    "services": [
+        { 
+            "id": 1, "title": "House cleaning service",
+            "thumbnailUrl": "http://localhost:9000/house_cleaning.jpeg", "rate": 50,
+            "rating": 4, "specialist": { "id": 1, "fullName": "Sheldon Cooper" }
+        },
+        { 
+            "id": 2, "title": "Car Mechanic when you need it",
+            "thumbnailUrl": "http://localhost:9000/mechanic.jpeg", "rate": 50,
+            "rating": 5, "specialist": { "id": 2, "fullName": "Jose Alvarez" }
+        },
+        { 
+            "id": 3, "title": "Want to paint your house? Give me a call!",
+            "thumbnailUrl": "http://localhost:9000/painter.jpeg", "rate": 50,
+            "rating": 4, "specialist": { "id": 3, "fullName": "Sheldon Cooper" }
+        },
+        { 
+            "id": 3, "title": "I can help with your yard needs",
+            "thumbnailUrl": "http://localhost:9000/yard.jpeg", "rate": 50,
+            "rating": 4, "specialist": { "id": 3, "fullName": "Sheldon Cooper" }
+        }
+    ]
+}
